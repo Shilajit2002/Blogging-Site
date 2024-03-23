@@ -1,0 +1,28 @@
+.profilePage {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  background: linear-gradient(45deg, #fc2f71, #ff5664);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePage .profileBox{
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.profilePage .profileBox img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

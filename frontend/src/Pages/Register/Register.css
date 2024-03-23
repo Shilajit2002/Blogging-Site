@@ -1,0 +1,55 @@
+.registerPage {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(32, 32, 32);
+}
+
+.registerPage .innerRegister {
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registerPage form {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registerPage form p {
+  margin: 0;
+  padding: 2px;
+  color: red;
+}
+
+.registerPage form button {
+  border-style: none;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:453px){
+  .registerPage .innerRegister{
+    width: 80%;
+  }
+
+  .registerPage form{
+    width: 100%;
+  }
+}

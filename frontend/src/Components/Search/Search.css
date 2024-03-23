@@ -1,0 +1,99 @@
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchContainer .upBox {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.searchContainer .upBox .searchBox {
+  width: 60%;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 5px;
+}
+
+.searchContainer .upBox .searchBox input {
+  width: 90%;
+  padding: 15px;
+  font-size: 1rem;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.searchContainer .upBox .searchBox input:focus {
+  outline: none;
+}
+
+.searchContainer .downBox {
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #fc2f71, #ff5664);
+}
+
+.searchContainer .downBox .cardBox {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.searchContainer .downBox .cardBox .box {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px;
+}
+
+.searchContainer .downBox .cardBox .para {
+  width: calc(100% - 100px);
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.searchContainer .downBox .cardBox .para p,
+.searchContainer .downBox .cardBox .para h3 {
+  margin: 5px;
+  padding: 0;
+}
+
+@media only screen and (max-width:715px){
+  .searchContainer .upBox .searchBox{
+    width: 90%;
+  }
+
+  .searchContainer .downBox .cardBox{
+    width: 90%;
+  }
+}

@@ -1,0 +1,35 @@
+.addBlogPage {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #fc2f71, #ff5664);
+}
+
+.addBlogPage .innerBlogPage {
+  width: 400px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addBlogPage .innerBlogPage form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 460px) {
+  .addBlogPage .innerBlogPage {
+    width: 80%;
+  }
+}
