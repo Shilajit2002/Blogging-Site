@@ -101,7 +101,7 @@ const Search = () => {
             </>
           ) : (
             <>
-              {data.length !== 0 && data.totalBlogs.length === 0 && (
+              {data.length !== 0 && data.totalBlogs.length === 0 ? (
                 <h3
                   style={{
                     margin: "10px 0",
@@ -109,6 +109,16 @@ const Search = () => {
                 >
                   No blogs found `~`
                 </h3>
+              ) : (
+                <>
+                  <h1
+                    style={{
+                      margin: "10px 0",
+                    }}
+                  >
+                    Welcome to BlogMonk
+                  </h1>
+                </>
               )}
             </>
           )}
