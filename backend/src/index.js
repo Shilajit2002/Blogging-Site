@@ -17,7 +17,8 @@ const Routes = require("./Routes/routes");
 const port = process.env.PORT || 8000;
 
 // Origin is Frontend Server URL
-const options = { origin: `${process.env.FRONTEND_SERVER}` };
+// const options = { origin: `${process.env.FRONTEND_SERVER}` };
+const options = { origin: "*" };
 // Attaching cors with Frontend Server URL
 app.use(cors(options));
 
