@@ -5,7 +5,7 @@
 ## Features
 
 <li><b>Search Functionality :</b> Users can search for blogs based on keywords or topics.</li>
-<li><b>User Authentication: Users need to sign up and sign in to access the blogging features.
+<li><b>User Authentication:</b> Users need to sign up and sign in to access the blogging features.
 <li><b>Blog Management :</b></li>
 <ol>
     <li><b>Create :</b> Authenticated users can create their own blogs.</li>
